@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="MySuite" duration-ms="18" started-at="2018-07-13T08:38:51Z" finished-at="2018-07-13T08:38:51Z">
+  <suite name="MySuite" duration-ms="17" started-at="2018-07-13T10:09:53Z" finished-at="2018-07-13T10:09:53Z">
     <groups>
     </groups>
-    <test name="MyTest" duration-ms="18" started-at="2018-07-13T08:38:51Z" finished-at="2018-07-13T08:38:51Z">
+    <test name="MyTest" duration-ms="17" started-at="2018-07-13T10:09:53Z" finished-at="2018-07-13T10:09:53Z">
       <class name="com.sample.SampleClass1">
-        <test-method status="PASS" signature="show()[pri:0, instance:com.sample.SampleClass1@3830f1c0]" name="show" duration-ms="0" started-at="2018-07-13T14:08:51Z" finished-at="2018-07-13T14:08:51Z">
+        <test-method status="PASS" signature="show()[pri:0, instance:com.sample.SampleClass1@61f8bee4]" name="show" duration-ms="0" started-at="2018-07-13T15:39:53Z" finished-at="2018-07-13T15:39:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- show -->
       </class> <!-- com.sample.SampleClass1 -->
       <class name="com.sample.SampleClass">
-        <test-method status="PASS" signature="show()[pri:0, instance:com.sample.SampleClass@379619aa]" name="show" duration-ms="4" started-at="2018-07-13T14:08:51Z" finished-at="2018-07-13T14:08:51Z">
+        <test-method status="PASS" signature="show()[pri:0, instance:com.sample.SampleClass@185d8b6]" name="show" duration-ms="6" started-at="2018-07-13T15:39:53Z" finished-at="2018-07-13T15:39:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- show -->

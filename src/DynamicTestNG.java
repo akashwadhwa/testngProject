@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -28,10 +29,18 @@ public class DynamicTestNG {
 		//Add any parameters that you want to set to the Test.
 		myTest.setParameters(testngParams);
 
+		//read classes to be run from properties file
+		PropertyReaderClass reader = new PropertyReaderClass();
+		String classesList = reader.readProperty("scriptName");
+		String[] classes = classesList.split(",");
+
 		//Create a list which can contain the classes that you want to run.
+
 		List<XmlClass> myClasses = new ArrayList<XmlClass> ();
-		myClasses.add(new XmlClass("com.sample.SampleClass"));
-		myClasses.add(new XmlClass("com.sample.SampleClass1"));
+
+		for(int i=0; i<classes.length; i++){
+			myClasses.add(new XmlClass("com.sample."+classes[i]));
+		}
 
 		//Assign that to the XmlTest Object created earlier.
 		myTest.setXmlClasses(myClasses);
